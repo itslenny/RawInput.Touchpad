@@ -3,7 +3,7 @@
 		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 		x:Name="WindowRoot"
 		Title="RawInput Touchpad"
-		Height="260" Width="400" ResizeMode="NoResize">
+		Height="180" Width="300" ResizeMode="CanMinimize">
 	<Grid>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto"/>

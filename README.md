@@ -7,13 +7,23 @@ Sample to capture inputs from Precision Touchpad by [Raw Input](https://docs.mic
 
 ## Requirements
 
-- .NET 5.0
+- .NET 9.0
 
-## Example
+Originally built on .NET 5.0, and upgraded in 2025, but no changes were needed. So, it should easily run on older versions of .NET
 
-When five fingers are touching the touchpad of Surface Pro 4 Type Cover, five contacts appear with each coordinates.
+## Examples
 
-![Screenshot](Images/Screenshot.png)
+When there are no fingers touching the touchpad, the window turns red
+
+![Screenshot](Images/screenshot-red.png)
+
+When five fingers are touching the touchpad of Surface Pro 4 Type Cover, five contacts appear with each coordinates, and the window turns green
+
+![Screenshot](Images/screenshot-green.png)
+
+When minimized the program shows up as a circle icon in the tray which is red when no touch is detected. When touch is detected it turns green and shows the number of touches.
+
+![Screenshot](Images/screenshot-tray.png)
 
 ## License
 
